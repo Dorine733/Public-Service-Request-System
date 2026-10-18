@@ -29,8 +29,6 @@ Live demo: https://public-service-request-system-six.vercel.app/login
 6. Register an account, then run in SQL Editor to make it admin:
    `update profiles set role = 'admin' where id = (select id from auth.users where email = 'you@example.com');`
 
-7. (Optional) Run `supabase/seed.sql` to load sample requests.
-
 ## Demo accounts 
 - Admin: register `tarusdorine291@gmail.com` / `Kenya@30`
 - Citizen: register `dorinejelagat4@gmail.com` / `Kenya@30`
