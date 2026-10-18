@@ -4,7 +4,7 @@ Citizens report county service problems (streetlights, water, garbage…); admin
 
 **Stack:** Next.js 14 (App Router) · Supabase (Postgres, Auth, Storage, Row Level Security)
 
-Live demo: https://your-link.vercel.app
+Live demo: https://public-service-request-system-six.vercel.app/login
 
 ## Features
 - Citizen registration / login (Supabase Auth, role-based routing)
