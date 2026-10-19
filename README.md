@@ -30,8 +30,8 @@ Live demo: https://public-service-request-system-six.vercel.app/login
    `update profiles set role = 'admin' where id = (select id from auth.users where email = 'you@example.com');`
 
 ## Demo accounts 
-- Admin: register `tarusdorine291@gmail.com` / `Kenya@30`
-- Citizen: register `dorinejelagat4@gmail.com` / `Kenya@30`
+- Admin: login `tarusdorine291@gmail.com` / `Kenya@30`
+- Citizen: login `dorinejelagat4@gmail.com` / `Kenya@30`
 
 ## Deploy (Vercel)
 Push to GitHub, import the repo in Vercel, add the two env variables, deploy.
